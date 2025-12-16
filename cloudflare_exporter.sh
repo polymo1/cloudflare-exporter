@@ -46,7 +46,7 @@ RFC_CURRENT_DATE=$($DATE --rfc-3339=date)
 ISO_CURRENT_DATE_TIME=$($DATE --iso-8601=seconds)
 ISO_CURRENT_DATE_TIME_1H_AGO=$($DATE --iso-8601=seconds --date "1 hour ago")
 ISO_CURRENT_DATE_TIME_2H_AGO=$($DATE --iso-8601=seconds --date "2 hour ago")
-INFLUXDB_URL="https://$INFLUXDB_HOST/api/v2/write?precision=s&org=$ORG&bucket=$BUCKET"
+INFLUXDB_URL="http://$INFLUXDB_HOST/api/v2/write?precision=s&org=$ORG&bucket=$BUCKET"
 CF_URL="https://api.cloudflare.com/client/v4/graphql"
 
 nb_zones=$(echo "$CLOUDFLARE_ZONE_LIST" | $JQ 'length - 1')
