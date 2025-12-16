@@ -220,6 +220,12 @@ Delete the following files:
 
 ## Credits
 
+This project has been forked from the original to fit the needs of the All Things Linux organization. The original repo can be found at [rare-magma/cloudflare-exporter](https://github.com/rare-magma/cloudflare-exporter).
+
+Per the allowances of the Apache v2 License, this project has been relicensed to GPLv3 to match All Things Linux's internal licensing policy.
+
+The credits from the original author (rare-magma) can be seen below.
+
 - [reddec/compose-scheduler](https://github.com/reddec/compose-scheduler)
 
 This project takes inspiration from the following:
